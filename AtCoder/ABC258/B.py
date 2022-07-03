@@ -4,6 +4,7 @@ amax = 0
 
 for _ in range(N):
     ##MEMO 空白なし文字列をリストにする list(str) => ['s','t','r']
+    ##MEMO 行列matrixへのアクセス M = [[列1,列2],[列1,列2]] → M[行][列]でアクセス
     row = list(map(int,list(input())))
     amax = max(amax,max(row))
     X.append(row)
