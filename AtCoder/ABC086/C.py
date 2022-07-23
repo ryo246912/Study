@@ -5,9 +5,9 @@ t = 0
 x = 0
 y = 0
 
-#MEMO 標準入力はリストで格納しなくても、range内で毎回受け取れる
-#MEMO for j in range(N):
-#MEMO     tj , xj , yj = map(int,input().split())
+#MEMO1: 標準入力はリストで格納しなくても、range内で毎回受け取れる
+#MEMO1: for j in range(N):
+#MEMO1:     tj , xj , yj = map(int,input().split())
 
 for i in range(N):
     arr.append(

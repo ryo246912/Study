@@ -24,8 +24,8 @@ def z(l):
 s = z(list(S))
 t = z(list(T))
 
-## MEMO zipの要素数が違う場合、少ない要素で展開終了
-## MEMO for i , j in zip([1],[1,2]) → (i,j) = (1,1)で終了 
+## MEMO1: zipの要素数が違う場合、少ない要素で展開終了
+## MEMO1: for i , j in zip([1],[1,2]) → (i,j) = (1,1)で終了 
 for x,y in zip(s,t):
     if x[0] != y[0]:
         print('No')

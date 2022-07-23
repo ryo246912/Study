@@ -1,7 +1,8 @@
 N = int(input())
 X = [list(input()) for _ in range(N)]
 p = [(i, j) for j in range(1,N) for i in range(j)]
-#MEMO 1:(i, j) for j in range(1,N) for i in range(j)はfor j→for iの順で実行される
+#MEMO 1:左から順for j→for iで実行される
+#MEMO 1:(i, j) for j in range(1,N) for i in range(j)
 #MEMO 1:for j in range(1,N):
 #MEMO 1:   for i in range(j):
 #MEMO 1:        (i,j)に相当
